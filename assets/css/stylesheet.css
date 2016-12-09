@@ -1,0 +1,130 @@
+/*@import url('https://fonts.googleapis.com/css?family=Raleway:400,500,600,700,800');*/
+
+body, input, button {
+	font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+	text-align: center;
+	color: #f50;
+}
+
+a {
+	text-decoration: none;
+	color: #5477ff;
+}
+
+.wrapper {
+	border: solid thin #e0e0e0;
+	border-radius: 5px;
+	box-shadow: 0px 0px 6px #e0e0e0;
+	padding: 15px;
+	width: 65%;
+	margin: 25px auto;
+}
+
+.wrapper .stat {
+	margin-bottom: 10px;
+	color: #909090;
+}
+
+.wrapper .highlight-content {
+	border-radius: 5px;
+	background-color: #f50;
+	color: #fff;
+	padding: 10px;
+	font-weight: 500;
+	font-size: 1em;
+}
+
+.wrapper .submit-task {
+	box-shadow: 0px 0px 2px #e0e0e0;
+	cursor: pointer;
+	border: 0;
+	transition: all 50ms;
+}
+
+.wrapper .submit-task:hover {
+	background-color: #0098ff;
+}
+
+.wrapper .alert-message {
+	margin-bottom: 15px;
+	display: none;
+}
+
+.wrapper .task-field {
+	border: dashed thin #909090;
+	border-radius: 5px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 100%;
+	max-width: 100%;
+	padding: 15px;
+	margin-bottom: 15px;
+}
+
+.wrapper .submit-btn:hover {
+	background-color: #ff6c22;
+}
+
+.todolist {
+	margin: 0px;
+	padding: 0px;
+}
+
+.todolist .task-item {
+	border: solid thin #e0e0e0;
+	border-radius: 5px;
+	list-style: none;
+	margin-bottom: 10px;
+	padding: 15px;
+	background-color: #fff;
+}
+
+.todolist p {
+	margin: 10px 0px 0px;
+	color: #585858;
+	font-weight: 600;
+}
+
+.todolist p.time {
+    margin: 6px 0px 0px;
+    font-size: 0.8em;
+    color: #797979;
+    font-weight: 500;
+}
+
+.todolist .controllers {
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.todolist .task {
+	width: 100%;
+}
+
+.todolist input[type="checkbox"] {
+	cursor: pointer;
+}
+
+.todolist .handler {
+	background-size: contain;
+	cursor: pointer;
+	width: 20px;
+	height: 20px;
+	float: right;
+}
+
+.todolist .handle-close {
+	background-image: url(../images/xsign.png);
+}
+
+.todolist .handle-ok {
+	background-image: url(../images/oksign.png);
+}
+
+.rights {
+	text-align: center;
+}
